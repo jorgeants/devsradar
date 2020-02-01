@@ -82,7 +82,7 @@ function DevForm({ onSubmit }) {
             id="longitude"
             required
             value={longitude}
-            onChange={event => setLatitude(event.target.value)}
+            onChange={event => setLongitude(event.target.value)}
           />
         </div>
       </div>
